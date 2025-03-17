@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Test Pattern 2
- * Slug: larris-theme/test2
+ * Title: Test Pattern 3
+ * Slug: larris-theme/test3
  * Categories: test
  */
 ?>
