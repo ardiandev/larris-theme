@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Header
+ * Title: Header Larris Theme
  * Slug: larris-theme/header
  * Categories: header
  * Description: Header with site title and navigation.
