@@ -2,6 +2,7 @@
 
 Contributors: Ardian Pradana
 Author URI: https://ardianpradana.com
+Description: A minimalist and modern WordPress Theme
 Requires at least: 6.7
 Tested up to: 6.7
 Requires PHP: 5.7
