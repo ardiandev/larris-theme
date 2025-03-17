@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Test Pattern
+ * Title: Test Pattern 2
  * Slug: larris-theme/test2
  * Categories: test
  */
