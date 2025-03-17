@@ -3,7 +3,6 @@
  * Title: Header
  * Slug: larris-theme/header
  * Categories: header
- * Block Types: core/template-part/header
  * Description: Header with site title and navigation.
  */
 
