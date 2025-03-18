@@ -7,8 +7,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","backgroundColor":"luminous-vivid-orange","fontSize":"large","layout":{"type":"constrained","contentSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-luminous-vivid-orange-background-color has-background has-large-font-size"><!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center">THIS IS MY FOOTER PATTERN</h2>
-<!-- /wp:heading --></div>
+<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"black","textColor":"white","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">@ Copyright 2025 Ardian Pradana</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->

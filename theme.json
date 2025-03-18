@@ -6,15 +6,71 @@
 			"contentSize": "620px",
 			"wideSize": "1000px"
 		},
+		"color": {
+			"palette": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#0A192F"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#fff"
+				},
+				{
+					"name": "Accent",
+					"slug": "accent",
+					"color": "#ffcc00"
+				},
+				{
+					"name": "Background",
+					"slug": "background",
+					"color": "#f5f5f5"
+				},
+				{
+					"name": "Text",
+					"slug": "text",
+					"color": "#333333"
+				},
+				{
+					"name": "Link",
+					"slug": "link",
+					"color": "#0073e6"
+				},
+				{
+					"name": "Border",
+					"slug": "border",
+					"color": "#eaeaea"
+				},
+				{
+					"name": "Button Background",
+					"slug": "button-bg",
+					"color": "#64FFDA"
+				}
+
+			]
+		},
 		"spacing": {
-			"units": [ "%", "px", "em", "rem", "vh", "vw" ]
+			"units": [ "%", "px", "em", "rem", "vh", "vw" ],
+			"blockGap": true
 		},
 		"typography": {
 			"fontFamilies": [
 				{
-					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-					"name": "System Font",
-					"slug": "system-font"
+					"name": "Montserrat",
+					"slug": "montserrat",
+					"fontFamily": "montserrat, sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/monstserrat/Montserrat-VariableFont_wght.ttf"
+							],
+							"fontWeight": "200 800",
+							"fontStyle": "normal",
+							"fontFamily": "montserrat"
+						}
+					]
 				}
 			]
 		},
@@ -31,7 +87,9 @@
 		}
 	],
 	"version": 3,
-	"patterns": [
-
-	]
+	"styles": {
+		"spacing": {
+		  "blockGap": "20px"
+		}
+	}
 }

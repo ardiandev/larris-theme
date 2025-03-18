@@ -1,5 +1,11 @@
 <?php
 
+function mytheme_enqueue_styles() {
+    wp_enqueue_style('mytheme-style', get_stylesheet_directory_uri() . '/style.css', array(), filemtime(get_stylesheet_directory() . '/style.css'));
+}
+add_action('wp_enqueue_scripts', 'mytheme_enqueue_styles');
+
+
 // Include the cache-setting.php and cache-toggle.php files
 require_once get_template_directory() . '/cache-control/cache-settings.php';  // Handles settings page
 require_once get_template_directory() . '/cache-control/cache-toggle.php';  // Handles the toggle functionality

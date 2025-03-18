@@ -14,3 +14,7 @@ Text Domain: larris-theme
 Tags: 
 */
 
+:where(.wp-site-blocks) > * {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
