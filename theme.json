@@ -42,11 +42,6 @@
 					"name": "Border",
 					"slug": "border",
 					"color": "#eaeaea"
-				},
-				{
-					"name": "Button Background",
-					"slug": "button-bg",
-					"color": "#64FFDA"
 				}
 
 			]
