@@ -1,4 +1,4 @@
-== Larris Theme ==
+== Larris Block Theme ==
 
 Contributors: Ardian Pradana
 Author URI: https://ardianpradana.com
