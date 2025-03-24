@@ -228,6 +228,11 @@
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--20)"
 				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontSize": "var(--wp-preset-font-size-medium)"
+				}
 			}
 			
 		}
