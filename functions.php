@@ -31,3 +31,6 @@ add_action('admin_init', function() {
 });
 
 
+// Include Admin Settings
+require_once plugin_dir_path(__FILE__) . 'includes/admin-settings.php';
+require_once plugin_dir_path(__FILE__) . 'includes/ct-form-handle.php';
