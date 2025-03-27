@@ -11,5 +11,4 @@
 <!-- wp:pattern {"slug":"larris-theme/hero"} /-->
 <!-- wp:pattern {"slug":"larris-theme/about-me"} /-->
 <!-- wp:pattern {"slug":"larris-theme/my-projects-2-columns"} /-->
-<!-- wp:pattern {"slug":"larris-theme/contact-us"} /-->
 <!-- wp:pattern {"slug":"larris-theme/footer"} /-->
