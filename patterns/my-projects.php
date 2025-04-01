@@ -7,7 +7,6 @@
  */
 
 ?>
-
 <!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"primary","textColor":"secondary","layout":{"type":"constrained","contentSize":"1200px"}} -->
 <div class="wp-block-group alignfull has-secondary-color has-primary-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"textAlign":"center"} -->
 <h2 class="wp-block-heading has-text-align-center"><strong>PROJECTS</strong></h2>
@@ -21,15 +20,15 @@
 <hr class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)"/>
 <!-- /wp:separator -->
 
-<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<!-- wp:columns {"verticalAlignment":null,"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:column {"width":"44%"} -->
-<div class="wp-block-column" style="flex-basis:44%"><!-- wp:image {"id":22,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pic1.jpg" alt="" class="wp-image-22"/></figure>
+<div class="wp-block-column" style="flex-basis:44%"><!-- wp:image {"id":22,"scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pic1.jpg" alt="" class="wp-image-22" style="object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"55%","style":{"spacing":{"blockGap":"var:preset|spacing|20"},"typography":{"lineHeight":1.6}}} -->
-<div class="wp-block-column" style="line-height:1.6;flex-basis:55%"><!-- wp:heading {"level":3} -->
+<!-- wp:column {"verticalAlignment":"center","width":"80%","style":{"spacing":{"blockGap":"var:preset|spacing|20"},"typography":{"lineHeight":1.6}}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="line-height:1.6;flex-basis:80%"><!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">Larris Theme</h3>
 <!-- /wp:heading -->
 
@@ -38,22 +37,22 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"secondary","textColor":"primary","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-primary-color has-secondary-background-color has-text-color has-background has-link-color wp-element-button">Case study</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","textColor":"secondary","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}}} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-secondary-color has-primary-background-color has-text-color has-background has-link-color wp-element-button">Case study</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<!-- wp:columns {"verticalAlignment":null,"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:column {"width":"44%"} -->
 <div class="wp-block-column" style="flex-basis:44%"><!-- wp:image {"id":22,"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pic2.jpg" alt="" class="wp-image-22"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"55%","style":{"spacing":{"blockGap":"var:preset|spacing|20"},"typography":{"lineHeight":1.6}}} -->
-<div class="wp-block-column" style="line-height:1.6;flex-basis:55%"><!-- wp:heading {"level":3} -->
+<!-- wp:column {"verticalAlignment":"center","width":"80%","style":{"spacing":{"blockGap":"var:preset|spacing|20"},"typography":{"lineHeight":1.6}}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="line-height:1.6;flex-basis:80%"><!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">Control Cache Plugin</h3>
 <!-- /wp:heading -->
 
@@ -62,22 +61,22 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"secondary","textColor":"primary","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-primary-color has-secondary-background-color has-text-color has-background has-link-color wp-element-button">Case study</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","textColor":"secondary","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}}} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-secondary-color has-primary-background-color has-text-color has-background has-link-color wp-element-button">Case study</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<!-- wp:columns {"verticalAlignment":null,"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:column {"width":"44%"} -->
 <div class="wp-block-column" style="flex-basis:44%"><!-- wp:image {"id":22,"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pic3.jpg" alt="" class="wp-image-22"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"55%","style":{"spacing":{"blockGap":"var:preset|spacing|20"},"typography":{"lineHeight":1.6}}} -->
-<div class="wp-block-column" style="line-height:1.6;flex-basis:55%"><!-- wp:heading {"level":3} -->
+<!-- wp:column {"verticalAlignment":"center","width":"80%","style":{"spacing":{"blockGap":"var:preset|spacing|20"},"typography":{"lineHeight":1.6}}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="line-height:1.6;flex-basis:80%"><!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">Larris Contact Form</h3>
 <!-- /wp:heading -->
 
@@ -86,22 +85,22 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"secondary","textColor":"primary","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-primary-color has-secondary-background-color has-text-color has-background has-link-color wp-element-button">Case study</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","textColor":"secondary","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}}} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-secondary-color has-primary-background-color has-text-color has-background has-link-color wp-element-button">Case study</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<!-- wp:columns {"verticalAlignment":null,"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:column {"width":"44%"} -->
 <div class="wp-block-column" style="flex-basis:44%"><!-- wp:image {"id":22,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pic1.jpg" alt="" class="wp-image-22"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pic2.jpg" alt="" class="wp-image-22"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"55%","style":{"spacing":{"blockGap":"var:preset|spacing|20"},"typography":{"lineHeight":1.6}}} -->
-<div class="wp-block-column" style="line-height:1.6;flex-basis:55%"><!-- wp:heading {"level":3} -->
+<!-- wp:column {"verticalAlignment":"center","width":"80%","style":{"spacing":{"blockGap":"var:preset|spacing|20"},"typography":{"lineHeight":1.6}}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="line-height:1.6;flex-basis:80%"><!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">Larris Slideshow Block </h3>
 <!-- /wp:heading -->
 
@@ -110,8 +109,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"secondary","textColor":"primary","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-primary-color has-secondary-background-color has-text-color has-background has-link-color wp-element-button">Case study</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","textColor":"secondary","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}}} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-secondary-color has-primary-background-color has-text-color has-background has-link-color wp-element-button">Case study</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
