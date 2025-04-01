@@ -13,8 +13,8 @@
 <h1 class="wp-block-heading has-text-align-center has-xx-large-font-size">Hi, I’m Ardian Pradana.</h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":1.6,"fontSize":"1.25rem"}}} -->
-<p class="has-text-align-center" style="font-size:1.25rem;line-height:1.6">I develop powerful, custom WordPress solutions. From themes to plugins—built for performance and scalability.</p>
+<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":1.6,"fontSize":"1.5rem"}}} -->
+<p class="has-text-align-center" style="font-size:1.5rem;line-height:1.6">I develop powerful, custom WordPress solutions. From themes to plugins—built for performance and scalability.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
