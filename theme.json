@@ -231,7 +231,7 @@
 			},
 			"core/site-title": {
 				"typography": {
-					"fontSize": "var(--wp-preset-font-size-medium)"
+					"fontSize": "var:preset|font-size|large"
 				}
 			}
 			
