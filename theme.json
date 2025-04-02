@@ -87,7 +87,7 @@
 					"fontFace": [
 						{
 							"src": [
-								"file:./assets/fonts/monstserrat/Montserrat-VariableFont_wght.ttf"
+								"file:./assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf"
 							],
 							"fontWeight": "200 800",
 							"fontStyle": "normal",
