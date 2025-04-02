@@ -17,7 +17,7 @@ A minimalist and modern WordPress Theme
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.1.0 =
 * Initial release
 
 
